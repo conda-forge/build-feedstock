@@ -1,5 +1,5 @@
-{% set version = "0.3.1.post1" %}
-{% set sha256 = "85123bf327404e68142b1eb2a8298b052e984ad5b12738549688371e6337c73a" %}
+{% set version = "0.4.0" %}
+{% set sha256 = "b798f3f490c779fa88c99816ebee97ab636acd6630b1d91c8cf8eb8a4d922a19" %}
 
 package:
   name: build
@@ -12,7 +12,7 @@ source:
 build:
   noarch: python
   number: 0
-  script: "{{ PYTHON }} -m pip install . -vv"
+  script: {{ PYTHON }} -m pip install . -vv
   entry_points:
     - pyproject-build = build.__main__:entrypoint
 
@@ -38,7 +38,7 @@ about:
   license: MIT
   license_family: MIT
   license_file: LICENSE
-  summary: 'A simple, correct PEP517 package builder'
+  summary: A simple, correct PEP517 package builder
   description: |
     build is a simple, correct PEP517 package builder. Use with 'python -m build --sdist --wheel'. This will build the package in an isolated environment, generating a source-distribution and wheel in the directory dist/.
   doc_url: https://pypa-build.readthedocs.io/en/latest/
