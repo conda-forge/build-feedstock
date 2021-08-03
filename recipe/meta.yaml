@@ -1,5 +1,5 @@
-{% set version = "0.5.1" %}
-{% set sha256 = "16897cac845b50cca04f3c92cf8d3e9e0868b21b29b96b577333c14473baa916" %}
+{% set version = "0.6.0" %}
+{% set sha256 = "a73b1ad279a43524e8d7e61733fe449e4dc325260f07a669fbc0cdb7f6019afa" %}
 
 package:
   name: build
@@ -18,13 +18,13 @@ build:
 
 requirements:
   host:
-    - python >=3.4
+    - python >=3.6
     - pip
   run:
-    - python >=3.4
+    - python >=3.6
     - packaging
-    - pep517 >=0.9
-    - toml
+    - pep517 >=0.9.1
+    - tomli
     - importlib-metadata
 
 test:
@@ -40,7 +40,7 @@ about:
   license_file: LICENSE
   summary: A simple, correct PEP517 package builder
   description: |
-    build is a simple, correct PEP517 package builder. Use with 'python -m build --sdist --wheel'. This will build the package in an isolated environment, generating a source-distribution and wheel in the directory dist/.
+    build is a simple, correct PEP517 package builder. Use with 'python -m build'. This will build the package in an isolated environment, generating a source-distribution and wheel in the directory dist/.
   doc_url: https://pypa-build.readthedocs.io/en/latest/
   dev_url: https://github.com/pypa/build
 
