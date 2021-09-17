@@ -13,7 +13,7 @@ Development: https://github.com/pypa/build
 
 Documentation: https://pypa-build.readthedocs.io/en/latest/
 
-build is a simple, correct PEP517 package builder. Use with 'python -m build --sdist --wheel'. This will build the package in an isolated environment, generating a source-distribution and wheel in the directory dist/.
+build is a simple, correct PEP517 package builder. Use with 'python -m build'. This will build the package in an isolated environment, generating a source-distribution and wheel in the directory dist/.
 
 
 Current build status
