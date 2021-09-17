@@ -1,5 +1,5 @@
-{% set version = "0.6.0" %}
-{% set sha256 = "a73b1ad279a43524e8d7e61733fe449e4dc325260f07a669fbc0cdb7f6019afa" %}
+{% set version = "0.7.0" %}
+{% set sha256 = "1aaadcd69338252ade4f7ec1265e1a19184bf916d84c9b7df095f423948cb89f" %}
 
 package:
   name: build
