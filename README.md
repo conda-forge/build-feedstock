@@ -1,7 +1,7 @@
 This package is superseded by the python-build conda-forge package.
 ==================================================================
 
-Please see [python-build[(https://github.com/conda-forge/python-build-feedstock).
+Please see [python-build](https://github.com/conda-forge/python-build-feedstock).
 
 About build
 ===========
